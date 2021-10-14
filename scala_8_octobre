@@ -1,0 +1,27 @@
+
+
+class vehicule[A]{
+  
+}
+
+case class voiture[A]() extends vehicule[A]
+  
+case class moto[A]() extends vehicule[A]
+
+case class bateau[A]() extends vehicule[A]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
