@@ -13,11 +13,11 @@ case class bateau[A]() extends vehicule[A]
 
 #correction
 
-sealed trait vehicule{ val registration: String}   #"abstract class" possible
+sealed trait vehicule{ val model: String}   #"abstract class" possible
 
-case class car(registration: String, model: String) extends vehicule
-case class boat(registration: String, model: String) extends vehicule
-case class moto(registration: String, model: String) extends vehicule
+case class Car(registration: String, model: String) extends vehicule
+case class Boat(registration: String, model: String) extends vehicule
+case class Moto(registration: String, model: String) extends vehicule
 
 
 
